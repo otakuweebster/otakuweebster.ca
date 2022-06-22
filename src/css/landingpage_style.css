@@ -1,13 +1,11 @@
 @charset "UTF-8";
-
 /*
     Filename: landingpage_style.css
     Author: Gabriel Beltran - OtakuWeebster
     Date: 6/21/2022
 */
 
-body {
-    width:50%;
-    margin-left:auto;
-    margin-right:auto;
+img
+{
+    width: 100%;
 }
