@@ -41,10 +41,6 @@ img
     width: 100%;
 }
 
-.nav-item:last-of-type {
-    bottom: 0;
-    position: absolute;
-}
 
 .nav-link {
     display: flex;
@@ -112,11 +108,22 @@ svg
 /*large screen */
 @media only screen and (min-width: 600px)
 {
+    .nav-item:last-of-type
+    {
+        bottom: 0;
+        position: absolute;
+    }
+
     .navbar
     {
         top: 0;
         width: 5rem;
         height: 100vh;
+    }
+
+    .nav-item:last-of-type
+    {
+
     }
 
     .navbar:hover
