@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 /*
     Filename: navbar_style.css
@@ -22,7 +22,7 @@ img
     height: 100vh;
     position: fixed;
     background-color: #e3e5eb;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Staatliches', cursive;
     transition: width 500ms ease;
 }
 
@@ -53,7 +53,7 @@ img
     color: #525460;
     text-decoration: none;
     filter: grayscale(100%) opacity(0.7) ;
-    transition: 600ms ease;
+    transition: 500ms ease;
     margin-top: 10px;
 }
 
@@ -74,7 +74,6 @@ img
 svg
 {
     fill: #525460;
-    transition: width 500ms ease;
 }
 
 
@@ -85,7 +84,7 @@ svg
     color: whitesmoke;
     text-decoration: none;
     filter: grayscale(100%) opacity(1.0) ;
-    transition: 600ms ease;
+    transition: 500ms ease;
     padding: 5px;
 }
 
@@ -122,20 +121,20 @@ svg
 
     .navbar:hover
     {
-        width: 16rem;
+        width: 12rem;
     }
 
     .navbar:hover .link-text
     {
         display: inline;
-        transition: opacity 600ms ease;
+        transition: opacity 500ms ease;
     }
 
     .navbar:hover img
     {
         margin-top: 20px;
         width: 60%;
-        transition: width 200ms ease;
+        transition: width 500ms ease;
     }
     /*WITH NAVLINK LOGO*/
     .nav-link-logo:hover
