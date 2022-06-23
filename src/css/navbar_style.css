@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
 
 /*
     Filename: navbar_style.css
@@ -22,7 +22,7 @@ img
     height: 100vh;
     position: fixed;
     background-color: #e3e5eb;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Metropolis', sans-serif;
     transition: width 500ms ease;
 }
 
@@ -50,6 +50,7 @@ img
     text-decoration: none;
     filter: grayscale(100%) opacity(0.7) ;
     transition: 500ms ease;
+    font-weight: bolder;
 }
 
 .link-text
@@ -98,6 +99,7 @@ svg
         background-color: #F6F6F6;
         color: #dddddd;
         border-radius: 20px;
+        margin-top: 10px;
     }
 
 
