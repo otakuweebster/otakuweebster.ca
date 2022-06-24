@@ -7,6 +7,7 @@ $(function()
     function clearSplash()
     {
         $("#splashscreen").css("display", "none");
+        $(".self_navbar").css("z-index", 1000);
     }
 
     function fadeCopyright()
