@@ -15,7 +15,7 @@ img
     transition: width 500ms ease;
 }
 
-.navbar
+.self_navbar
 {
     top: 0;
     width: 5rem;
@@ -26,7 +26,7 @@ img
     transition: width 500ms ease;
 }
 
-.navbar-nav
+.self_navbar-nav
 {
     list-style: none;
     padding: 0;
@@ -36,13 +36,13 @@ img
     align-items: center;
 }
 
-.nav-item
+.self_nav-item
 {
     width: 100%;
 }
 
 
-.nav-link {
+.self_nav-link {
     display: flex;
     align-items: center;
     height: 5rem;
@@ -58,7 +58,7 @@ img
     display: none;
 }
 
-.nav-link svg
+.self_nav-link svg
 {
     min-width: 2rem;
     margin: 0 1.5rem;
@@ -73,7 +73,7 @@ svg
 }
 
 
-.nav-link-logo {
+.self_nav-link-logo {
     display: flex;
     align-items: center;
     height: 5rem;
@@ -86,15 +86,15 @@ svg
 
 
 /*SMALL SCREENS*/
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 767px)
 {
-    .navbar:hover img
+    .self_navbar:hover img
     {
         width: 90%;
         transition: width 200ms ease;
     }
 
-    .nav-link
+    .self_nav-link
     {
         background-color: #F6F6F6;
         color: #dddddd;
@@ -104,54 +104,55 @@ svg
 
 
 
+
 }
 
 /*large screen */
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 767px)
 {
-    .nav-item:last-of-type
+    .self_nav-item:last-of-type
     {
         bottom: 0;
         position: absolute;
     }
 
-    .navbar
+    .self_navbar
     {
         top: 0;
         width: 5rem;
         height: 100vh;
     }
 
-    .nav-item:last-of-type
+    .self_nav-item:last-of-type
     {
 
     }
 
-    .navbar:hover
+    .self_navbar:hover
     {
         width: 12rem;
     }
 
-    .navbar:hover .link-text
+    .self_navbar:hover .link-text
     {
         display: inline;
         transition: opacity 500ms ease;
     }
 
-    .navbar:hover img
+    .self_navbar:hover img
     {
         margin-top: 20px;
         width: 60%;
         transition: width 500ms ease;
     }
     /*WITH NAVLINK LOGO*/
-    .nav-link-logo:hover
+    .self_nav-link-logo:hover
     {
         color: #525460;
         padding-bottom: 5px;
     }
 
-    .nav-link:hover
+    .self_nav-link:hover
     {
         background-color: #F6F6F6;
         color: #525460;
