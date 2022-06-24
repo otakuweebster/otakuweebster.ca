@@ -85,4 +85,9 @@ h1#intro
     {
         font-size: 18px;
     }
+
+    main
+    {
+        padding-bottom: 90px;
+    }
 }
