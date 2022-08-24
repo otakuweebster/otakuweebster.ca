@@ -29,32 +29,36 @@
 }
 
 
-
 #splashscreen #icon
 {
     --size: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:  translate(-50%, -50%);
+    transform:  scale(1.0,1.0);
     width: var(--size);
     animation: zoom-in 2s;
     animation-delay: 2s;
+}
+
+#elementSplash
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*ANIMATION*/
 @keyframes zoom-in
 {
     50% {
-        width: var(--size);
+        transform: scale(1.0,1.0) ;
     }
 
     60% {
-        width: calc(var(--size)*0.9);
+        transform: scale(0.5,0.5) ;
     }
 
     100% {
-        width: 300%;
+        transform: scale(20.0,20.0) ;
     }
 }
 
