@@ -4,6 +4,7 @@ $(function()
     const aboutMe = $("#aboutMe");
     const portfolio = $("#portfolio");
     const logo = $("#logo");
+    const mainHeading = $(".heading");
 
     setTimeout(clearSplash, 4000);
     setTimeout(fadeCopyright, 1500);
@@ -33,14 +34,17 @@ $(function()
      */
     aboutMe.on("click", function () {
         bannerAnimate();
+        mainHeading.slideUp(500);
     });
 
     portfolio.on("click", function () {
         bannerAnimate();
+        mainHeading.slideUp(500);
     })
 
     logo.on("click", function () {
         bannerDiv.slideDown(500);
+        mainHeading.slideDown(500);
     })
 
 
